@@ -230,7 +230,7 @@ export default function Dashboard() {
           <div className="mb-6 md:mb-0">
             <div className="flex items-center gap-2">
               <span className="text-2xl">
-                <img src="/src/Assets/Frame 16.png" alt="airbubble logo" className="h-6" />
+                <img src={frame16} alt="airbubble logo" className="h-6" />
               </span>
               <span className="font-bold text-2xl">air bubble</span>
             </div>
