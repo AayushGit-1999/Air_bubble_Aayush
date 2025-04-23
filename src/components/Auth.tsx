@@ -2,7 +2,8 @@ import React, { useState } from 'react';
 import { createUserWithEmailAndPassword, signInWithEmailAndPassword } from 'firebase/auth';
 import { auth } from '../firebase';
 import { LogIn, UserPlus } from 'lucide-react';
-import logoImage from '../Assets/Frame 10.png';
+// import logoImage from '../Assets/Frame 10.png';
+import frame10 from '../Assets/Frame 10.png'
 
 const MinecraftAuthPage = () => {
   const [isSignIn, setIsSignIn] = useState(true);
@@ -84,7 +85,7 @@ const MinecraftAuthPage = () => {
         {!showForm ? (
           <div className="bg-gray-900 bg-opacity-80 backdrop-blur-sm rounded-[20px] p-8 w-[435px] h-[180px] text-center shadow-xl border-2 border-zinc-700">
             <div className="mb-6 flex flex-col items-center">
-              <img src="/src/Assets/Frame 10.png" alt="Logo" className="h-6 mb-2" />
+              <img src={frame10} alt="Logo" className="h-6 mb-2" />
               <p className="text-sm text-gray-300">Minecraft mods, created in a flash</p>
             </div>
             <div className="flex space-x-4">
@@ -105,7 +106,7 @@ const MinecraftAuthPage = () => {
         ) : (
           <div className="bg-gray-900 bg-opacity-85 backdrop-blur-sm rounded-lg p-8 w-96 max-w-md text-center shadow-xl">
             <div className="mb-4 flex flex-col items-center">
-              <img src="/src/Assets/Frame 10.png" alt="Logo" className="h-12 mb-2" />
+              <img src={frame10} alt="Logo" className="h-12 mb-2" />
               <p className="text-sm text-gray-300">Minecraft mods, created in a flash</p>
             </div>
             <h2 className="text-xl font-bold text-white mb-4">

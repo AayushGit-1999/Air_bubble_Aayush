@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { signOut } from 'firebase/auth';
 import { auth } from '../firebase';
 import { FileText, LogOut } from 'lucide-react';
+import frame16 from '../Assets/Frame 16.png';
 
 export default function Dashboard() {
   const [isLoggedIn, setIsLoggedIn] = useState(true);
@@ -26,7 +27,7 @@ export default function Dashboard() {
       <header className="flex items-center justify-between px-6 py-4">
         <div className="flex items-center gap-2">
           <span className="text-2xl">
-            <img src="/src/Assets/Frame 16.png" alt="airbubble logo" className="h-6" />
+            <img src={frame16} alt="airbubble logo" className="h-6" />
           </span>
           <span className="font-bold text-2xl">air bubble</span>
         </div>
@@ -264,7 +265,7 @@ export default function Dashboard() {
         </div>
 
         <div className="flex justify-end mt-10 text-sm text-gray-200 relative bottom-[-50px] right-[-40px]">
-          Made with ♥️ in The <span className='h-auto w-[20px]'> <img src="/src/Assets/Frame 16.png" alt="airbubble logo" /> </span> bubble
+          Made with ♥️ in The <span className='h-auto w-[20px]'> <img src={frame16} alt="airbubble logo" /> </span> bubble
         </div>
       </footer>
     </div>
