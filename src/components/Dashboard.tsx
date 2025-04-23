@@ -154,7 +154,7 @@ export default function Dashboard() {
 
               <button className="flex items-center text-sm font-semibold text-gray-400 mt-8">
                 Advanced  <span className="ml-2">
-                 <DownArrow />
+                  <DownArrow />
 
                 </span>
               </button>
