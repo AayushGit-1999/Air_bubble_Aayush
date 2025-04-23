@@ -234,7 +234,7 @@ export default function Dashboard() {
               </span>
               <span className="font-bold text-2xl">air bubble</span>
             </div>
-            <p className="text-xs text-gray-400 max-w-md mt-2">
+            <p className="text-xs text-gray-400  mt-2">
               Air bubble is the AI-powered platform that makes Minecraft moddding instant <br /> and accessible to everyone. Simply describe your desired mods, and watch <br />them come to life in your game within seconds, opening up a universe of <br />personalized experiences.
             </p>
             <img className='h-[20px] mt-4' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2nHeo6lNQM6sO5waCE4RNZlU-bnGWdc7RAg&s" alt="" />
