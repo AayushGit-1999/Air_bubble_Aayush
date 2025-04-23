@@ -3,6 +3,7 @@ import { signOut } from 'firebase/auth';
 import { auth } from '../firebase';
 import { FileText, LogOut } from 'lucide-react';
 import frame16 from '../Assets/Frame 16.png';
+import DownArrow from '../Assets/svg/Advanced';
 
 export default function Dashboard() {
   const [isLoggedIn, setIsLoggedIn] = useState(true);
@@ -153,9 +154,7 @@ export default function Dashboard() {
 
               <button className="flex items-center text-sm font-semibold text-gray-400 mt-8">
                 Advanced  <span className="ml-2">
-                  <svg width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M5.28935 7.157L0.339352 2.207C-0.0511131 1.81653 -0.051115 1.18346 0.339351 0.792999C0.729816 0.402533 1.36289 0.402533 1.75335 0.792999L5.28924 4.32889C5.67977 4.71942 6.31293 4.71942 6.70346 4.32889L10.2394 0.792999C10.6298 0.402534 11.2629 0.402533 11.6534 0.792999C12.0438 1.18346 12.0438 1.81653 11.6534 2.207L6.70335 7.157C6.51582 7.34447 6.26152 7.44978 5.99635 7.44978C5.73119 7.44978 5.47688 7.34447 5.28935 7.157Z" fill="white" fill-opacity="0.5" />
-                  </svg>
+                 <DownArrow />
 
                 </span>
               </button>
