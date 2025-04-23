@@ -4,6 +4,7 @@ import { auth } from '../firebase';
 import { LogIn, UserPlus } from 'lucide-react';
 // import logoImage from '../Assets/Frame 10.png';
 import frame10 from '../Assets/Frame 10.png'
+import bgImage from '../Assets/2cd25f408f43a8f2c47a487dd0f2b65b.png'
 
 const MinecraftAuthPage = () => {
   const [isSignIn, setIsSignIn] = useState(true);
@@ -70,7 +71,7 @@ const MinecraftAuthPage = () => {
       <div
         className="absolute inset-0 bg-cover bg-center"
         style={{
-          backgroundImage: "url('/Assets/2cd25f408f43a8f2c47a487dd0f2b65b.png')",
+          backgroundImage: `url(${bgImage})`,
           backgroundSize: 'cover',
           backgroundPosition: 'center'
         }}
