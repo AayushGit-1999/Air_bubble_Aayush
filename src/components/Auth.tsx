@@ -70,7 +70,7 @@ const MinecraftAuthPage = () => {
       <div
         className="absolute inset-0 bg-cover bg-center"
         style={{
-          backgroundImage: "url('/src/Assets/2cd25f408f43a8f2c47a487dd0f2b65b.png')",
+          backgroundImage: "url('/Assets/2cd25f408f43a8f2c47a487dd0f2b65b.png')",
           backgroundSize: 'cover',
           backgroundPosition: 'center'
         }}
